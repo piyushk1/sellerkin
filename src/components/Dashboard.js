@@ -1,12 +1,11 @@
 
 import React, { useState } from 'react';
 import "./Dashboard.css"
-import { Progress } from 'flowbite-react';
 import ProgressBar from "@ramonak/react-progress-bar";
 
 const Dashboard = () => {
 
-const [progress,setProgess] =useState(24)//as given
+const [progress] =useState(24)//as given
   const items = [
     {
       title: 'Keyword Finder',

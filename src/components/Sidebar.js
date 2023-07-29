@@ -8,7 +8,7 @@ import logo from "./logo.png"
 
 const Sidebar = () => {
   const iconStyle = { marginRight: '5px' };
-  const [progress,setProgess] =useState(24)//as given
+  const [progress] =useState(24)//as given
   return (
     <div className="sidebar">
       <div className='logoContainer'>
