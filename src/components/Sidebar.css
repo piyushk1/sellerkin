@@ -1,0 +1,77 @@
+.sidebar {
+    width: 250px;
+    background: rgb();
+    padding: 20px;
+    color: white;
+    background: rgb(0, 34, 56);
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    gap:50px
+  }
+  
+  .sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .menu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    gap:30px;
+    
+  }
+
+  .logout{
+    margin-top: 20x;
+    
+  }
+  
+  .logout p{
+   color: red;
+    
+  }
+
+
+  
+.progressStateSidebar{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    align-items: center;
+    font-weight: 700;
+    margin: 20px;
+    top: 300px;
+
+}
+.progressContainerSidebar{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    top:330px
+  
+  
+}
+.container{
+   margin-top: 130px;
+}
+
+.logoContainer{
+    display: flex;
+    align-items: center;
+    font-size: 34px;
+    margin: 5px;
+   
+  
+   
+}
+.logoImage{
+    
+    height:30px;
+    width: 40px;
+}

@@ -1,0 +1,67 @@
+
+.App {
+  display: flex;
+  min-height: 100vh;
+}
+
+
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+
+.dashboard-content,
+.information-content {
+  background: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 50px;
+}
+
+.right-column {
+  flex: 2;
+  flex-direction: row;
+}
+
+.grid-item1 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 300px;
+  width: 600px;
+}
+.grid-item2 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 250px;
+  width: 600px;
+}
+.grid-item3 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 400px;
+  width: 500px;
+
+}

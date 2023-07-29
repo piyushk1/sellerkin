@@ -1,0 +1,12 @@
+
+.header {
+    background: rgb(0, 34, 56);
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+  }
